@@ -1,0 +1,10 @@
+.txtContainer{
+    width: 50%;
+    margin: 80px;
+    padding-left: 70px;
+    color: var(--fonts3);
+}
+
+h1{
+    font-weight: 700;
+}
