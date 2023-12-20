@@ -1,0 +1,25 @@
+.txtContainer{
+    color: var(--fonts3);
+    padding: 80px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*cell*/
+@media only screen and (max-width: 768px){
+    .txtContainer{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/*computer*/
+@media only screen and (min-width: 768px){
+    .txtContainer{
+        width: 40%;
+    }
+}
