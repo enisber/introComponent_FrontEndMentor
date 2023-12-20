@@ -1,0 +1,59 @@
+.generalContainer{
+    padding: 50px;
+}
+
+.formContainer{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    min-height: 300px;
+    box-shadow: 1px 8px 3px hsl(0, 42%, 55%);
+}
+
+.promo{
+    
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: var(--blue-accent);
+    border-radius: 10px;
+    color: var(--grey-fonts);
+    font-weight: 500;
+    box-shadow: 1px 6px 3px hsl(0, 42%, 55%);
+}
+
+.termsTxt{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--grey-fonts);
+    padding-top: 20px;
+}
+
+.generalContainer span{
+    font-weight: 600;
+    color:white;
+}
+
+.formContainer span{
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--red-main-color);
+}
+
+
+/*cell*/
+@media only screen and (max-width: 768px){
+    .generalContainer{
+        width: 100%;
+    }
+}
+
+
+/*computer*/
+@media only screen and (min-width: 768px){
+    .generalContainer{
+        width: 40%;
+    }
+}

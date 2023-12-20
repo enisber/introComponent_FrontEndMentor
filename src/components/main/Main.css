@@ -1,0 +1,26 @@
+
+.mainContainer{
+    min-height: 100vh;
+    background-color: var(--red-main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*cell*/
+@media only screen and (max-width: 768px){
+    .mainContainer{
+        background-image: url('../../assets/images/bg-intro-mobile.png');
+        gap: 40px;
+    }
+}
+
+
+/*computer*/
+@media only screen and (min-width: 768px){
+    .mainContainer{
+        background-image: url('../../assets/images/bg-intro-desktop.png');
+        gap: 20px;
+    }
+}
