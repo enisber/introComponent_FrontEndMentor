@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot of the solution
 
-![](./solution/Screenshoot1.png)
-![](./solution/Screenshoot2.png)
+![](./intro-components/solution/Screenshot1.png)
+![](./intro-components/solution/Screenshot2.png)
 
 ## My process
 
